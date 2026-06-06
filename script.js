@@ -6,10 +6,10 @@ document.body.appendChild(getSumBtn);
 const getSum = () => {
 //Add your code here
 
-	const prices=document.querySelectorAll(".price");
+	const prices=document.querySelectorAll(".prices");
   let sum=0
 
-  for (let item of price )
+  for (let item of prices )
   {
     sum+=Number(item.innerText)
     
