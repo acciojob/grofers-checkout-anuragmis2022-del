@@ -6,7 +6,7 @@ document.body.appendChild(getSumBtn);
 const getSum = () => {
 //Add your code here
 
-	const price=document.querySelectorAll(".price");
+	const prices=document.querySelectorAll(".price");
   let sum=0
 
   for (let item of price )
@@ -15,6 +15,7 @@ const getSum = () => {
     
   }
 const td = document.createElement("td");
+	td.setAttribute("id","ans")
  const tr = document.createElement("tr");
 td.innerText=sum
 
